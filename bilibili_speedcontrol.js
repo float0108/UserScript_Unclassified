@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         bilibili播放视频倍速自定义（原生按钮，支持快捷键自定义，支持0-16倍速）
 // @namespace    dzj0821
-// @version      1.2.1
+// @version      1.2.2
 // @icon         https://www.bilibili.com/favicon.ico
-// @description  （origin: dzj0821. bilibili播放视频倍速自定义）新增支持快捷键 [ ] \ 增减重置倍速，支持中英输入法及大小写兼容，并在视频中心弹出原生感提示。
+// @description  （origin: dzj0821. bilibili播放视频倍速自定义）新增支持快捷键 , . / 增减重置倍速，支持中英输入法及大小写兼容，并在视频中心弹出原生感提示。
 // @author       dzj0821 & float0108
 // @include      http*://*bilibili.com/video/*
 // @include      http*://*bilibili.com/list/*
@@ -80,7 +80,7 @@
     }
 
     function getShortcutKeys() {
-        return (localStorage.getItem("dz_bilibili_video_custom_speed_shortcuts") || "[,],\\").split(",");
+        return (localStorage.getItem("dz_bilibili_video_custom_speed_shortcuts") || ", . /").split(",");
     }
 
     function getSetSpeedOnLoadSetting() {
