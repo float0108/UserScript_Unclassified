@@ -384,7 +384,7 @@
                 showTip("请输入3个快捷键");
                 return;
             }
-            localStorage.setItem("dz_bilibili_video_custom_speed_shortcuts", keys.join(","));
+            localStorage.setItem("dz_bilibili_video_custom_speed_shortcuts", keys.join(" "));
             showTip("快捷键已更新");
         }
     }

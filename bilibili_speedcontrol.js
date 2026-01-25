@@ -113,7 +113,7 @@
         if (input !== null) {
             let keys = input.trim().split(/\s+/);
             if (keys.length === 3) {
-                localStorage.setItem("dz_bilibili_video_custom_speed_shortcuts", keys.join(","));
+                localStorage.setItem("dz_bilibili_video_custom_speed_shortcuts", keys.join(" "));
                 alert(`设置成功：${keys.join(" | ")}`);
             } else { alert("需输入三个按键"); }
         }
