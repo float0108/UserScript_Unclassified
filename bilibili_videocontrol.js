@@ -2,7 +2,7 @@
 // @name         bilibili 视频增强（倍速、锚点管理）
 // @namespace    float0108
 // @version      2.1
-// @description  自定义倍速、快捷键、锚点管理、视频中心提示动效。1)快捷键：`键添加锚点，Tab/Shift+Tab切换锚点，自定义倍速快捷键（默认,./）；2)管理面板：搜索过滤、批量删除、全选；
+// @description  自定义倍速、快捷键、锚点管理、视频中心提示动效。1)快捷键：`键添加锚点，Tab/Shift+Tab切换锚点，自定义倍速快捷键（默认zxc）；2)管理面板：搜索过滤、批量删除、全选；
 // @author       float0108 & gemini Pro & dzj0821
 // @include      http*://*bilibili.com/video/*
 // @include      http*://*bilibili.com/list/*
@@ -101,10 +101,10 @@
     };
     const getShortcutKeys = () => {
         try {
-            return (localStorage.getItem("dz_bilibili_video_custom_speed_shortcuts") || ",,.,/").split(",");
+            return (localStorage.getItem("dz_bilibili_video_custom_speed_shortcuts") || "z x c").split(" ");
         } catch (e) {
             console.error('读取快捷键设置失败:', e);
-            return [",", ".", "/"];
+            return ["z", "x", "c"];
         }
     };
     const getSetSpeedOnLoadSetting = () => localStorage.getItem("dz_bilibili_video_custom_speed_set_speed_on_load") === "true";
@@ -377,7 +377,7 @@
     }
 
     function updateShortcuts() {
-        let input = window.prompt("设置快捷键（减速 加速 重置）：", getShortcutKeys().join(" "));
+        let input = window.prompt("设置快捷键（减速 加速 重置，空格分隔）：", getShortcutKeys().join(" "));
         if (input) {
             const keys = input.trim().split(/\s+/);
             if (keys.length !== 3) {
