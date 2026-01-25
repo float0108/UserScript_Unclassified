@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili 视频增强（倍速、锚点管理）
 // @namespace    float0108
-// @version      2.1.1
+// @version      2.1.2
 // @description  自定义倍速、快捷键、锚点管理、视频中心提示动效。1)快捷键：`键添加锚点，Tab/Shift+Tab切换锚点，自定义倍速快捷键（默认zxc）；2)管理面板：搜索过滤、批量删除、全选；
 // @author       float0108 & gemini Pro & dzj0821
 // @include      http*://*bilibili.com/video/*
