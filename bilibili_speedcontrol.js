@@ -10,7 +10,7 @@
 // @include      http*://*bilibili.com/bangumi/*
 // @grant        GM_registerMenuCommand
 // @grant        GM_unregisterMenuCommand
-// @license      MIT
+// @license      GNU/GPLv3
 // @homepage     https://github.com/float0108/UserScript_Unclassified/
 // @downloadURL https://update.greasyfork.org/scripts/563861/bilibili%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91%E5%80%8D%E9%80%9F%E8%87%AA%E5%AE%9A%E4%B9%89%EF%BC%88%E5%8E%9F%E7%94%9F%E6%8C%89%E9%92%AE%EF%BC%8C%E6%94%AF%E6%8C%81%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%87%AA%E5%AE%9A%E4%B9%89%EF%BC%8C%E6%94%AF%E6%8C%810-16%E5%80%8D%E9%80%9F%EF%BC%89.user.js
 // @updateURL https://update.greasyfork.org/scripts/563861/bilibili%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91%E5%80%8D%E9%80%9F%E8%87%AA%E5%AE%9A%E4%B9%89%EF%BC%88%E5%8E%9F%E7%94%9F%E6%8C%89%E9%92%AE%EF%BC%8C%E6%94%AF%E6%8C%81%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%87%AA%E5%AE%9A%E4%B9%89%EF%BC%8C%E6%94%AF%E6%8C%810-16%E5%80%8D%E9%80%9F%EF%BC%89.meta.js
