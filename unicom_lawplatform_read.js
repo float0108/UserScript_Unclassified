@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         【联通】法律公文阅读
+// @name         【联通】法律公文自动点赞
 // @namespace    http://tampermonkey.net/
 // @version      2025-12-26
 // @description  自动点击指定元素，完成后自动关闭标签页
