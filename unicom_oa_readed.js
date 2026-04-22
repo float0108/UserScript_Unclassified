@@ -9,6 +9,8 @@
 // @grant        none
 // @run-at       document-start
 // @license      GNU/GPLv3
+// @downloadURL https://update.greasyfork.org/scripts/574938/%E3%80%90%E8%81%94%E9%80%9A%E3%80%91%E4%BA%91%E5%85%AC%E6%96%87%E5%B7%B2%E9%98%85%EF%BC%8C%E6%8B%A6%E6%88%AAwps%E6%89%93%E5%BC%80%E8%AF%B7%E6%B1%82.user.js
+// @updateURL https://update.greasyfork.org/scripts/574938/%E3%80%90%E8%81%94%E9%80%9A%E3%80%91%E4%BA%91%E5%85%AC%E6%96%87%E5%B7%B2%E9%98%85%EF%BC%8C%E6%8B%A6%E6%88%AAwps%E6%89%93%E5%BC%80%E8%AF%B7%E6%B1%82.meta.js
 // ==/UserScript==
  
 (function() {
